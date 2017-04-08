@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  radarr:
+    build: .
+    image: cturra/radarr:latest
+    container_name: radarr
+    restart: always
+    ports:
+      - 7878:7878
+    volumes:
+      - /data/radarr/config:/volumes/config/radarr
+      - /data/radarr/movies:/volumes/media
+      - /data/downloads/complete:/data/downloads/complete
