@@ -1,6 +1,6 @@
 About this container
 ---
-This container runs the A fork of (Sonarr)[https://sonarr.tv] to work with movies à la Couchpotato. More about Radarr can be found at:
+This container runs the A fork of [Sonarr](https://sonarr.tv) to work with movies à la Couchpotato. More about Radarr can be found at:
 
   https://radarr.video
 
