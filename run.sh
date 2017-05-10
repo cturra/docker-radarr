@@ -15,6 +15,7 @@ function start_container() {
   $DOCKER run --name=${CONTAINER_NAME}                         \
               --restart=always                                 \
               --detach=true                                    \
+              --volume=/etc/localtime:/etc/localtime:ro        \
               --volume=${EXT_CONFIG_DIR}:${INT_CONFIG_DIR}     \
               --volume=${EXT_MEDIA_DIR}:${INT_MEDIA_DIR}       \
               --volume=${EXT_DOWNLOAD_DIR}:${INT_DOWNLOAD_DIR} \

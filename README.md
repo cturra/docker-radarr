@@ -17,6 +17,7 @@ $> docker pull cturra/radarr
 $> docker run --name=radarr                                           \
               --restart=always                                        \
               --detach=true                                           \
+              --volume=/etc/localtime:/etc/localtime:ro               \
               --volume=/path/to/config/dir:/volumes/config/radarr     \
               --volume=/path/to/media/dir:/volumes/media              \
               --volume=/path/to/download/dir:/data/downloads/complete \

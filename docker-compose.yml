@@ -9,6 +9,7 @@ services:
     ports:
       - 7878:7878
     volumes:
+      - /etc/localtime:/etc/localtime:ro
       - /data/radarr/config:/volumes/config/radarr
       - /data/radarr/movies:/volumes/media
       - /data/downloads/complete:/data/downloads/complete
