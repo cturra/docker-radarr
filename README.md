@@ -1,5 +1,9 @@
 About this container
 ---
+[![Docker Build Status](https://img.shields.io/docker/build/cturra/radarr.svg)](https://hub.docker.com/r/cturra/radarr/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/cturra/radarr.svg)](https://hub.docker.com/r/cturra/radarr/)
+[![Apache licensed](https://img.shields.io/badge/license-Apache-blue.svg)](https://raw.githubusercontent.com/cturra/docker-nzbget/badges/LICENSE)
+
 This container runs the A fork of [Sonarr](https://sonarr.tv) to work with movies à la Couchpotato. More about Radarr can be found at:
 
   https://radarr.video
